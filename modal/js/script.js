@@ -23,12 +23,12 @@ heading.addEventListener("dblclick", function () {
 
 //обработчик событий: при клике на консультацию будет открываться мод.окно
 receiveBtn.addEventListener('click', function() {
-  modal.style.display = "block"
+  modal.style.display = "block";
 });
 
 // закрытие окна
 close.addEventListener('click', function() {
-  modal.style.display = "none"
+  modal.style.display = "none";
 });
 
 // 
@@ -36,8 +36,7 @@ nameInput.addEventListener("input", function() {
   text.value = "Меня зовут " + nameInput.value + ". И я хочу спросить:"
 
   if (nameInput.value == "") { //проверяем на пустоту
-    text.value = ""
-  
+    text.value = "";  
   }
 });
 

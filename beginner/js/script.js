@@ -22,7 +22,7 @@ function myFirstApp(name, age) {
   checkAge();
 
   function calcPow(num) {
-    alert("Квадрат числа " + num + "=" + num * num)
+    alert("Квадрат числа " + num + "=" + num ** num)
   }
   calcPow(4);
 }
