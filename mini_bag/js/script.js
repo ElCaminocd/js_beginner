@@ -55,16 +55,7 @@ window.addEventListener('DOMContentLoaded', function() {
       //Удаляем карточку с товаром
       products[i].remove();
       
-    for (let i = 0; i < btn.textContent; i++) {
-      btn.addEventListener('click', function() {
-        let shop = document.querySelector('.shop');
-            
-
-        
-        shop.appendChild(products[i]);
-      })
-    }
-      
+   
     })
   }
 
