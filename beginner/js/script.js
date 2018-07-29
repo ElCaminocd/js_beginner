@@ -1,12 +1,12 @@
 function myFirstApp(name, age) {
 
-  alert("Привет! Меня зовут " + name + " и это моя первая программа!");
+  alert('Привет! Меня зовут ' + name + ' и это моя первая программа!');
 
   function showSkills() {
-    let skills = ["HTML", "CSS", "PHP"];
+    let skills = ['HTML', 'CSS', 'PHP'];
 
     for (let i = 0; i < skills.length; i++) {
-      document.write("Я владею " + skills[i] + "<br>");
+      document.write('Я владею ' + skills[i] + '<br>');
     }
   }
 
@@ -14,20 +14,20 @@ function myFirstApp(name, age) {
 
   function checkAge() {
     if (age > 18) {
-      alert("У тебя есть шанс стать фронтенд разработчиком");
+      alert('У тебя есть шанс стать фронтенд разработчиком');
     } else {
-      alert("У тебя все еще будет шанс");
+      alert('У тебя все еще будет шанс');
     }
   }
   checkAge();
 
   function calcPow(num) {
-    alert("Квадрат числа " + num + "=" + num ** num)
+    alert('Квадрат числа ' + num + '=' + num ** num)
   }
   calcPow(4);
 }
 
-  myFirstApp("Natalya", 31);
+  myFirstApp('Natalya', 31);
 
 
 //let number = 5;
