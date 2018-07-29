@@ -62,8 +62,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
         
         shop.appendChild(products[i]);
-        //Удаляем карточку с товаром
-        products[i].remove();
       })
     }
       
